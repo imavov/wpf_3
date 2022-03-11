@@ -16,14 +16,13 @@ using System.Windows.Shapes;
 namespace WpfApp3
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Page2.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page2 : Page
     {
-        public MainWindow()
+        public Page2()
         {
             InitializeComponent();
-            mainFrame.Navigate(new Page1());
         }
     }
 }
