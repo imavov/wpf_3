@@ -23,7 +23,7 @@ namespace WpfApp3
         public MainWindow()
         {
             InitializeComponent();
-            mainFrame.Navigate(new Page1());
+            mainFrame.Navigate(new Page2());
         }
     }
 }
